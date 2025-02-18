@@ -64,17 +64,38 @@ CREATE TABLE Investments (
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id) ON DELETE CASCADE
 );
 ```
-## [Download CSV files dataset](https://github.com/amgfigueiredo/Projects/tree/8ad354134f5df79b8acc5e0d932b4724d5da8eee/SQL/Finance/dataset) and load data into MySQL
+## [Download CSV files dataset](https://github.com/amgfigueiredo/Projects/tree/8ad354134f5df79b8acc5e0d932b4724d5da8eee/SQL/Finance/dataset) & load data into MySQL
 ```sql
 #Go to Datasets and download each file. Change the "Load Data" file location
-LOAD DATA INFILE '/path_to/customers.csv'
-INTO TABLE Customers
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LOAD DATA INFILE '/customers.csv' 
+INTO TABLE Customers 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+
+LOAD DATA INFILE '/accounts.csv' 
+INTO TABLE Accounts 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+
+LOAD DATA INFILE '/transactions.csv' 
+INTO TABLE Transactions 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+
+LOAD DATA INFILE '/investments.csv' 
+INTO TABLE Investments 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 ```
-(Repeat for all tables, updating /path_to/ accordingly.)
+(In Alternative, you can use MySQL Table Data Wizard Import to load your [CSV files](https://github.com/amgfigueiredo/Projects/tree/8ad354134f5df79b8acc5e0d932b4724d5da8eee/SQL/Finance/dataset) )
 
 ## Beginner Level
 **Build the queries to answer the following questions**
