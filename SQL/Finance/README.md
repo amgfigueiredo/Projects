@@ -114,31 +114,31 @@ IGNORE 1 ROWS;
 ## Intermediate Level
 **Build the queries to answer the following questions**
 ```
-1. Find the average balance for each account type.
-2. Show all transactions along with customer names.
-3. Find the customer with the highest account balance.
-4. Show the total deposits and withdrawals for each account.
-5. Retrieve all transactions with amounts greater than the average transaction amount.
-6. Find all customers who have both a savings and a checking account.
-7. Get the top 3 highest investments by amount.
-8. Calculate the total invested amount for each customer.
-9. Display the name of customers with more than one account.
-10. Find the return amount for each investment (amount_invested * return_rate).
+11. Find the average balance for each account type.
+12. Show all transactions along with customer names.
+13. Find the customer with the highest account balance.
+14. Show the total deposits and withdrawals for each account.
+15. Retrieve all transactions with amounts greater than the average transaction amount.
+16. Find all customers who have both a savings and a checking account.
+17. Get the top 3 highest investments by amount.
+18. Calculate the total invested amount for each customer.
+19. Display the name of customers with more than one account.
+20. Find the return amount for each investment (amount_invested * return_rate).
 ```
 
 ## Advanced Level
 **Build the queries to answer the following questions**
 ```
-1. Find the monthly total transactions (deposits and withdrawals).
-2. Retrieve customers who have never made a transaction.
-3. Show the top customer by total balance across all accounts.
-4. Find the account with the highest number of transactions.
-5. Calculate the compound return on investments after 5 years.
-6. Identify customers who have an investment but no checking account.
-7. Get a list of customers with a balance below the average balance.
-8. Rank accounts based on their balance.
-9. Find the highest transaction in each month.
-10. Calculate the percentage of total investments per customer.
+21. Find the monthly total transactions (deposits and withdrawals).
+22. Retrieve customers who have never made a transaction.
+23. Show the top customer by total balance across all accounts.
+24. Find the account with the highest number of transactions.
+25. Calculate the compound return on investments after 5 years.
+26. Identify customers who have an investment but no checking account.
+27. Get a list of customers with a balance below the average balance.
+28. Rank accounts based on their balance.
+29. Find the highest transaction in each month.
+30. Calculate the percentage of total investments per customer.
 ```
 
 
