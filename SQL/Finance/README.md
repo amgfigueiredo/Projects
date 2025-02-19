@@ -1,6 +1,6 @@
-# Finance Industry SQL Portfolio Project
+# Finance Industry - SQL Project
 
-This project is a SQL-based financial database designed for portfolio development. It includes customer accounts, transactions, and investments, making it suitable for practicing SQL queries ranging from beginner to advanced levels.
+This project is a SQL-based financial database designed for my portfolio. It includes customer accounts, transactions, and investments, making it suitable for practicing SQL queries ranging from beginner to advanced levels.
 
 ## Datasets
 
@@ -100,30 +100,47 @@ IGNORE 1 ROWS;
 ## Beginner Level
 **Build the queries to answer the following questions**
 ```
-1.Retrieve all customers from the database.
-2.Show all transactions that are deposits.
-3.Get the total balance for each account type.
-4.Find all accounts opened before 2022.
-5.Display the names of customers who have checking accounts.
-6.Count the number of transactions in January 2024.
-7.Get the highest transaction amount.
-8.List all investments sorted by highest return rate.
-9.Find accounts with a balance greater than $2000.
-10.Show all customers who joined after January 1, 2021.
+1. Retrieve all customers from the database.
+2. Show all transactions that are deposits.
+3. Get the total balance for each account type.
+4. Find all accounts opened before 2022.
+5. Display the names of customers who have checking accounts.
+6. Count the number of transactions in January 2024.
+7. Get the highest transaction amount.
+8. List all investments sorted by highest return rate.
+9. Find accounts with a balance greater than $2000.
+10. Show all customers who joined after January 1, 2021.
 ```
 ## Intermediate Level
 **Build the queries to answer the following questions**
 ```
-1.Find the average balance for each account type.
-2.Show all transactions along with customer names.
-3.Find the customer with the highest account balance.
-4.Show the total deposits and withdrawals for each account.
-5.Retrieve all transactions with amounts greater than the average transaction amount.
-6.Find all customers who have both a savings and a checking account.
-7.Get the top 3 highest investments by amount.
-8.Calculate the total invested amount for each customer.
-9.Display the name of customers with more than one account.
-10.Find the return amount for each investment (amount_invested * return_rate).
+1. Find the average balance for each account type.
+2. Show all transactions along with customer names.
+3. Find the customer with the highest account balance.
+4. Show the total deposits and withdrawals for each account.
+5. Retrieve all transactions with amounts greater than the average transaction amount.
+6. Find all customers who have both a savings and a checking account.
+7. Get the top 3 highest investments by amount.
+8. Calculate the total invested amount for each customer.
+9. Display the name of customers with more than one account.
+10. Find the return amount for each investment (amount_invested * return_rate).
 ```
+
+## Advanced Level
+**Build the queries to answer the following questions**
+```
+1. Find the monthly total transactions (deposits and withdrawals).
+2. Retrieve customers who have never made a transaction.
+3. Show the top customer by total balance across all accounts.
+4. Find the account with the highest number of transactions.
+5. Calculate the compound return on investments after 5 years.
+6. Identify customers who have an investment but no checking account.
+7. Get a list of customers with a balance below the average balance.
+8. Rank accounts based on their balance.
+9. Find the highest transaction in each month.
+10. Calculate the percentage of total investments per customer.
+```
+
+
 
 ## Happy Coding!!
