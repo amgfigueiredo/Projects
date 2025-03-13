@@ -1,5 +1,5 @@
 # 🚀 Power BI Dashboard: Patient Waitlist Analysis
-![Screenshot Healthcare Dashboard](https://github.com/amgfigueiredo/Projects/blob/0b599da578bc87c999b095a8d693f0eb64d8c75f/PowerBI/Healthcare_Dashboard/Healthcare_Dashboard_Screenshot.png)
+![Screenshot Healthcare Dashboard](https://github.com/amgfigueiredo/Projects/blob/61265372d6934dea0c61f445898003d02b62e581/PowerBI/Healthcare_Dashboard/Healthcare_Dashboard_Screenshot.png)
 ## 🏥 Overview
 This Power BI dashboard provides a structured and data-driven analysis of patient waiting lists, offering critical insights into inpatient and outpatient trends. Built with efficiency, accuracy, and usability in mind, this dashboard enables healthcare professionals to make informed decisions based on real-time data.
 
